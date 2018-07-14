@@ -2,10 +2,10 @@
 This repository is used for hosting [Wii U Plugin System](https://github.com/Maschell/WiiUPluginSystem) plugins and files to be downloaded within the client.
 
 ## Viewing plugins
-You can view plugins to download/update either in the the WUPS client app directly, or by downloading them directly from this repo. (gh-pages branch, under `zips` folder)
+You can view plugin zips to download/update either in the the WUPS client app directly, or by downloading them directly from this repo. (gh-pages branch, under `zips` folder)
 
 ## Plugin Submission
-To submit your own plugin, you can create a [pull request](/fortheusers/plugins/pulls). It should be for your own folder within the `packages` folder. The folder should contain an info json file, your plugin, and any other files as they should be installed relative to the root of the SD. For instance, here are two plugins named `plugin1` and `plugin2`, and how they should be laid out in the `packages` folder:
+To submit your own plugin, you can create a [pull request](/fortheusers/plugins/pulls) against master. It should be for your own folder within the `packages` folder. The folder should contain an info json file, your plugin, and any other files as they should be installed relative to the root of the SD. For instance, here are two plugins named `plugin1` and `plugin2`, and how they should be laid out in the `packages` folder:
 
 ```
 .
